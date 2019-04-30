@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite-name">
+    <test name="onlyRunStu">
+        <groups>
+            <run>
+                <include name="stu"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.syw.testng.groups.GroupsOnClass1"/>
+            <class name="com.syw.testng.groups.GroupsOnClass2"/>
+            <class name="com.syw.testng.groups.GroupsOnClass3"/>
+        </classes>
+    </test>
+
+</suite>
